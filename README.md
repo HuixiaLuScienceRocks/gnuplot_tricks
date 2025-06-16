@@ -31,11 +31,25 @@ e. front ensures it shows on top.
 
 # To Remove a Specific Label:
 
-a. If you know the label number (e.g. label 1), run:
+I). If you know the label number (e.g. label 1), run:
 
 gnuplot> ``unset label 1``
 
 gnuplot> ``replot``
+
+II).  To Remove All Labels:
+
+``unset label``
+
+``replot``
+
+III) move a label instead of removing and re-adding it:
+
+``set label 1 at NEW_X, NEW_Y, NEW_Z``
+
+``replot``
+
+
 
 
 ![adding labels](https://github.com/HuixiaLuScienceRocks/gnuplot_tricks/blob/main/fes-2cv.png)
