@@ -9,6 +9,12 @@ gnuplot> ``set ytics 0,1,10``
 
 gnuplot> ``set xtics 0,1,10``
 
+gnuplot> ``set xrange [0:10]``
+
+gnuplot> ``set yrange [0:5]``
+
+gnuplot> ``set cbrange [-1:1]``  # color bar (z-axis)
+
 gnuplot> ``set pm3d map``
 
 gnuplot> ``sp 'fes-2cv.dat' u 1:2:3 w pm3d``
