@@ -16,3 +16,12 @@ Adjust the coordinates (x, y, z) as needed.
 font ",20" sets the font size.
 tc rgb "red" makes it in red color.
 front ensures it shows on top.
+
+# To Remove a Specific Label:
+
+a. If you know the label number (e.g. label 1), run:
+unset label 1
+replot
+
+
+
