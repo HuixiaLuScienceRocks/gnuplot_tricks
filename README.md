@@ -32,4 +32,4 @@ unset label 1
 replot
 
 
-![adding labels]([address of the image](https://github.com/HuixiaLuScienceRocks/gnuplot_tricks/blob/main/fes-2cv.png))
+![adding labels]([[address of the image](https://github.com/HuixiaLuScienceRocks/gnuplot_tricks/blob/main/fes-2cv.png)](https://github.com/HuixiaLuScienceRocks/gnuplot_tricks/blob/main/fes-2cv.png))
